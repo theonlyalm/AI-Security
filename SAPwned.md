@@ -3,8 +3,6 @@
 ---
 
 * **Severity:** 🔴 Critical
-* **Researchers:** Hillai Ben-Sasson (Wiz Research)
-* **Date Disclosed:** July 17, 2024
 * **Target:** SAP AI Core (Shared Cloud Environment)
 * **Impact:** Cross-tenant data access, supply-chain poisoning, and full Kubernetes cluster takeover.
 
