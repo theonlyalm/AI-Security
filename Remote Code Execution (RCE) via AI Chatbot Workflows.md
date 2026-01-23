@@ -3,8 +3,6 @@
 ---
 
 * **Severity:** 🔴 Critical
-* **Researcher:** Anurag__Verma
-* **Date:** August 5, 2024
 * **Target:** Popular AI Chatbot / Business Management Platform
 * **Platform Environment:** Node.js 18.x
 
