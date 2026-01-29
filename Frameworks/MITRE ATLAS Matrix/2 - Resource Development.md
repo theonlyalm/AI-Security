@@ -4,12 +4,12 @@
 
 * **Goal:** Create, purchase, or steal the tools and assets needed for an attack.
 * **Resources Include:**
-* **AI Artifacts:** Models and datasets.
-* **Infrastructure:** Servers, domains, and development workspaces.
-* **Accounts & Capabilities:** Service access and specific attack implementations.
-
+  * **AI Artifacts:** Models and datasets.
+  * **Infrastructure:** Servers, domains, and development workspaces.
+  * **Accounts & Capabilities:** Service access and specific attack implementations.
 
 * **Usage:** Provides the foundation for **AI Attack Staging** and other lifecycle phases.
+
 ---
 
 ## 🏗️ Acquire Infrastructure
