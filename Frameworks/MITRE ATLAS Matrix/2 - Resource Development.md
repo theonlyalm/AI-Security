@@ -4,9 +4,9 @@
 
 * **Goal:** Create, purchase, or steal the tools and assets needed for an attack.
 * **Resources Include:**
-  * **AI Artifacts:** Models and datasets.
-  * **Infrastructure:** Servers, domains, and development workspaces.
-  * **Accounts & Capabilities:** Service access and specific attack implementations.
+ * **AI Artifacts:** Models and datasets.
+ * **Infrastructure:** Servers, domains, and development workspaces.
+ * **Accounts & Capabilities:** Service access and specific attack implementations.
 
 * **Usage:** Provides the foundation for **AI Attack Staging** and other lifecycle phases.
 
@@ -80,8 +80,8 @@
 * **Adversarial AI Attack Implementations:** Weaponizing research libraries like **CleverHans, Adversarial Robustness Toolbox (ART), and FoolBox**.
 * **Software Tools:** Repurposing legitimate, non-AI software for malicious intent.
 * **Generative AI:** Using LLMs to generate malware, phishing content, or malicious commands.
-* **Hosting:** Using frameworks like **Ollama/vLLM** or cloud providers like **Hugging Face**.
-* **Uncensored Models:** Leveraging models designed without guardrails or **jailbreaking** existing models to bypass alignment.
+ * **Hosting:** Using frameworks like **Ollama/vLLM** or cloud providers like **Hugging Face**.
+ * **Uncensored Models:** Leveraging models designed without guardrails or **jailbreaking** existing models to bypass alignment.
 
 
 
@@ -93,9 +93,9 @@
 
 * **Methods:** Introduced via supply chain compromise or after gaining initial access.
 * **Mitigations:**
-* Sanitize training data.
-* Maintain AI dataset provenance.
-* Use an AI Bill of Materials (BOM).
+ * Sanitize training data.
+ * Maintain AI dataset provenance.
+ * Use an AI Bill of Materials (BOM).
 
 
 * **Tactics:** Resource Development, Persistence
