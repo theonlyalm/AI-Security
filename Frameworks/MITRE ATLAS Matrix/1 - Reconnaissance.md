@@ -1,5 +1,14 @@
 # AI Reconnaissance Techniques
 
+**Summary:** The adversary gathers information about the AI system to plan future operations.
+
+* **Goal:** Actively or passively collect details on a victim's **AI capabilities** and **research efforts**.
+* **Usage:**
+* Obtain relevant AI artifacts.
+* Target specific AI capabilities.
+* **Tailor attacks** to the exact models in use.
+* Drive further reconnaissance efforts.
+
 ---
 
 ## 🔍 Active Scanning
