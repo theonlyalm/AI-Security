@@ -13,7 +13,7 @@
 
 The vulnerability exists in the `/api/pull` endpoint, which is used to download AI models from a registry. While Ollama uses its official registry by default, it allows users to specify **private registries**.
 
-When a model is "pulled" from a private registry, the server receives a **manifest file** containing a `digest` field (intended to be a SHA-256 hash). Wiz researchers discovered that Ollama failed to validate this field, allowing a **Path Traversal** attack.
+When a model is "pulled" from a private registry, the server receives a **manifest file** containing a `digest` field (intended to be a SHA-256 hash). The researchers discovered that Ollama failed to validate this field, allowing a **Path Traversal** attack.
 
 * **The Attack:** A malicious registry could provide a manifest where the `digest` field contains traversal sequences like `../../../../etc/`.
 * **The Result:** Because Ollama used the `digest` string to construct the file path where the model blob would be stored on disk, the attacker could force the server to **write or overwrite any file** on the filesystem.
