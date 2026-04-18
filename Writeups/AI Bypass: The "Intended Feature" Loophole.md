@@ -9,7 +9,7 @@
 
 ### 📖 Executive Summary
 
-In early 2024, researcher Ishwar Kumar disclosed a logical vulnerability in a photo-sharing application's facial recognition system. The app used AI to map user faces for auto-tagging in group photos. While the app enforced a "live" facial scan during registration to prevent spoofing, Kumar discovered a fallback mechanism—an "Intended Feature"—that completely negated the security check. By simply tapping outside the facial detection box, a user could force the app to accept a static image from the gallery, allowing attackers to use deepfakes or stolen photos to impersonate others.
+In early 2024, a researcher disclosed a logical vulnerability in a photo-sharing application's facial recognition system. The app used AI to map user faces for auto-tagging in group photos. While the app enforced a "live" facial scan during registration to prevent spoofing, Kumar discovered a fallback mechanism—an "Intended Feature"—that completely negated the security check. By simply tapping outside the facial detection box, a user could force the app to accept a static image from the gallery, allowing attackers to use deepfakes or stolen photos to impersonate others.
 
 ---
 
