@@ -9,7 +9,7 @@
 
 ### 📖 Executive Summary
 
-Following the discovery of the "XSS Marks the Spot" vulnerability, Ron Masas explored a critical question: **"What happens *after* an attacker steals a user's session token?"** While session tokens expire every few days, Masas found a way to achieve **permanent persistence**. By injecting malicious instructions into ChatGPT's **"Custom Instructions"** or **Memory**, an attacker creates a "Double Agent." Even after the user resets their password or the session refreshes, the AI itself remains compromised, secretly analyzing the user's future conversations and exfiltrating sensitive data (like passwords or API keys) to the attacker.
+Following the discovery of the "XSS Marks the Spot" vulnerability, the research explored a critical question: **"What happens *after* an attacker steals a user's session token?"** While session tokens expire every few days, Masas found a way to achieve **permanent persistence**. By injecting malicious instructions into ChatGPT's **"Custom Instructions"** or **Memory**, an attacker creates a "Double Agent." Even after the user resets their password or the session refreshes, the AI itself remains compromised, secretly analyzing the user's future conversations and exfiltrating sensitive data (like passwords or API keys) to the attacker.
 
 ---
 
