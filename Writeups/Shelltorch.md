@@ -1,4 +1,4 @@
-**Shelltorch** is a collection of critical vulnerabilities in **TorchServe**, the model-serving library for PyTorch. First disclosed in 2023 by the Oligo Research Team, these flaws (specifically **CVE-2023-43654** and **CVE-2022-1471**) allow for unauthenticated **Remote Code Execution (RCE)**.
+**Shelltorch** is a collection of critical vulnerabilities in **TorchServe**, the model-serving library for PyTorch. First disclosed in 2023 by the research team, these flaws (specifically **CVE-2023-43654** and **CVE-2022-1471**) allow for unauthenticated **Remote Code Execution (RCE)**.
 
 Given the massive adoption of PyTorch by the Fortune 500 and AI researchers, Shelltorch represents a "triple threat": it targets the infrastructure, the supply chain, and the AI models themselves.
 
