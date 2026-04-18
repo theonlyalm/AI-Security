@@ -10,7 +10,7 @@
 
 ### 📖 Executive Summary
 
-Salt Labs researchers identified three critical vulnerabilities within the **ChatGPT Ecosystem** (Plugins and GPTs). These flaws allowed attackers to perform **0-click account takeovers**, install malicious plugins without user consent, and hijack sensitive third-party accounts like **GitHub, Google Drive, and Salesforce**. By exploiting the way ChatGPT communicates with external services via OAuth, attackers could exfiltrate private chat history and proprietary source code.
+The researchers identified three critical vulnerabilities within the **ChatGPT Ecosystem** (Plugins and GPTs). These flaws allowed attackers to perform **0-click account takeovers**, install malicious plugins without user consent, and hijack sensitive third-party accounts like **GitHub, Google Drive, and Salesforce**. By exploiting the way ChatGPT communicates with external services via OAuth, attackers could exfiltrate private chat history and proprietary source code.
 
 ---
 
