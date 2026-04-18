@@ -17,7 +17,7 @@ This vulnerability exploited the "Folder Upload" feature in AI Studio, which all
 
 ### Why Regressions Happen in AI Systems
 
-Rehberger’s discovery highlighted a core challenge in AI security: **UI/UX updates often conflict with security sanitizers.**
+The research highlighted a core challenge in AI security: **UI/UX updates often conflict with security sanitizers.**
 
 In early 2024, Google was rapidly iterating on the Gemini interface. The researcher theorized that during the implementation of new multimodal features (like video and image analysis), the **Markdown sanitizer**—which is supposed to strip out external image tags—was either bypassed or temporarily disabled to allow for new legitimate rendering features.
 
