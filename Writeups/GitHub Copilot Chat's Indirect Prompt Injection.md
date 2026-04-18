@@ -20,7 +20,7 @@ The core of this exploit lies in the fact that Copilot Chat renders **Markdown**
 
 While the 2024 research led to an initial fix (restricting image domains), security researchers in **2025** found a much more sophisticated bypass.
 
-* **The Bypass:** Researchers from Legit Security found that while Copilot blocked third-party URLs, it still trusted GitHub's own **Camo** image proxy.
+* **The Bypass:** Researchers found that while Copilot blocked third-party URLs, it still trusted GitHub's own **Camo** image proxy.
 * **The Attack:** They created a "dictionary" of signed Camo URLs—one for every letter of the alphabet. They then instructed Copilot to "spell out" a user's AWS key or private code by rendering a sequence of 1x1 pixel images.
 * **The Impact:** By watching the order in which these images were requested from their server, attackers could reconstruct stolen secrets character-by-character. This led GitHub to **completely disable all image rendering** in Copilot Chat in August 2025.
 
@@ -28,7 +28,7 @@ While the 2024 research led to an initial fix (restricting image domains), secur
 
 ### 🚀 Beyond Exfiltration: RCE and "YOLO Mode"
 
-In late 2025, Johann Rehberger (the author of the post you shared) discovered an even more critical vulnerability (**CVE-2025-53773**) involving **Remote Code Execution (RCE)**.
+In late 2025, the researcher discovered an even more critical vulnerability (**CVE-2025-53773**) involving **Remote Code Execution (RCE)**.
 
 He found that prompt injection could trick Copilot into modifying your VS Code `settings.json` file. By setting `"chat.tools.autoApprove": true`, he put Copilot into what he called **"YOLO Mode,"** allowing the AI to execute terminal commands on the developer's machine without any confirmation.
 
