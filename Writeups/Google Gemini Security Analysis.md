@@ -10,7 +10,7 @@
 
 ### 📖 Executive Summary
 
-HiddenLayer researchers identified several critical vulnerabilities in Google’s Gemini family of models. These flaws range from **System Prompt Leakage** (revealing internal developer instructions) to **Indirect Injections** via Google Workspace, which allow attackers to manipulate user sessions silently. Despite fine-tuning and safety guardrails, the models remain susceptible to "Inverse Scaling" attacks—where larger models' complex reasoning capabilities actually make them easier to manipulate through sophisticated logic.
+The researchers identified several critical vulnerabilities in Google’s Gemini family of models. These flaws range from **System Prompt Leakage** (revealing internal developer instructions) to **Indirect Injections** via Google Workspace, which allow attackers to manipulate user sessions silently. Despite fine-tuning and safety guardrails, the models remain susceptible to "Inverse Scaling" attacks—where larger models' complex reasoning capabilities actually make them easier to manipulate through sophisticated logic.
 
 ---
 
