@@ -4,11 +4,11 @@ By 2026, this case has become a textbook example of **normalization inconsistenc
 
 ---
 
-## 🛰️ Nagli vs. Wildcard: What Changed?
+## 🛰️ Original vs. Wildcard: What Changed?
 
 The original vulnerability relied on the CDN’s "default" caching of static files. The 2024 "Wildcard" version shifted the focus to **location-based rules**.
 
-| Feature | Original (Nagli) | Wildcard Variant |
+| Feature | Original | Wildcard Variant |
 | --- | --- | --- |
 | **Trigger** | Static extension (e.g., `.css`, `.js`) | Path prefix (e.g., `/share/*`) |
 | **Logic** | "It ends in .css, so cache it." | "It starts with /share/, so cache it." |
