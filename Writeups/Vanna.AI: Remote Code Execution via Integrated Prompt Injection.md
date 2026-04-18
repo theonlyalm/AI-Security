@@ -33,7 +33,7 @@ The "Question" and the "SQL" parameters are both part of the prompt for the seco
 
 ### 🔍 Isolated vs. Integrated Prompt Injection
 
-The JFrog research team introduced a helpful distinction for categorizing these threats:
+The research team introduced a helpful distinction for categorizing these threats:
 
 | Type | Impact | Example |
 | --- | --- | --- |
