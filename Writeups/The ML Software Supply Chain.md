@@ -12,7 +12,7 @@ To understand the risks, we first have to look at how these platforms function. 
 
 ## ⚠️ Two Flavors of Failure
 
-JFrog categorizes these risks into **Inherent** (built into the tech) and **Implementation** (human error in the code).
+The researchers categorizes these risks into **Inherent** (built into the tech) and **Implementation** (human error in the code).
 
 ### 1. Inherent Vulnerabilities: "The Way It Works"
 
