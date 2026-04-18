@@ -9,7 +9,7 @@
 
 ### 📖 Executive Summary
 
-In May 2024, Wiz Research published the second installment of their "AI-as-a-Service" investigation, this time targeting **Replicate**. They proved that a malicious actor could not only execute code on Replicate's servers but also **pivot** to intercept the private prompts and AI responses of other customers. This attack utilized a sophisticated technique called **TCP Injection** to hijack internal communications between the AI workers and a centralized database.
+In May 2024, the researchers published the second installment of their "AI-as-a-Service" investigation, this time targeting **Replicate**. They proved that a malicious actor could not only execute code on Replicate's servers but also **pivot** to intercept the private prompts and AI responses of other customers. This attack utilized a sophisticated technique called **TCP Injection** to hijack internal communications between the AI workers and a centralized database.
 
 ---
 
