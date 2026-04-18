@@ -23,7 +23,7 @@ As you noted in your other research samples, this vulnerability isn't a "one-and
 
 ### 📅 The January 2026 "Weaponized Calendar" Flaw
 
-The most recent evolution of this attack occurred just **last week** (January 20, 2026). Researchers at **Miggo Security** discovered a way to bypass Google’s modern defenses using **Calendar Invites**.
+The most recent evolution of this attack occurred just **last week** (January 20, 2026). The researchers discovered a way to bypass Google’s modern defenses using **Calendar Invites**.
 
 * **The Attack:** An attacker sends you a meeting invite. You don't accept it, but it sits on your calendar.
 * **The Trigger:** You ask Gemini: *"What does my schedule look like today?"*
