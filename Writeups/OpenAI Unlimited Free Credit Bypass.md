@@ -10,7 +10,7 @@
 
 ### 📖 Executive Summary
 
-In early 2023, OpenAI offered a **$7–$18 trial credit** for new accounts to encourage API adoption. To prevent abuse, OpenAI required both a unique email and a unique phone number. However, security researcher David Sopas discovered a logic flaw that allowed a single phone number to be reused an infinite number of times. By manipulating the API request with prepended zeros or hidden Unicode characters, attackers could register thousands of accounts and aggregate "unlimited" free credits.
+In early 2023, OpenAI offered a **$7–$18 trial credit** for new accounts to encourage API adoption. To prevent abuse, OpenAI required both a unique email and a unique phone number. However, the security researcher discovered a logic flaw that allowed a single phone number to be reused an infinite number of times. By manipulating the API request with prepended zeros or hidden Unicode characters, attackers could register thousands of accounts and aggregate "unlimited" free credits.
 
 ---
 
