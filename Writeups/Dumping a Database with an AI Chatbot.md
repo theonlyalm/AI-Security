@@ -10,7 +10,7 @@
 
 ### 📖 Executive Summary
 
-Researcher Kuldeep Pandya discovered a critical vulnerability in a healthcare-associated AI chatbot that allowed for **full database exfiltration** and **underlying filesystem access**. The attack began with a simple authentication bypass and escalated when the chatbot revealed it had the authority to execute raw SQL queries against its own backend database.
+This research discovered a critical vulnerability in a healthcare-associated AI chatbot that allowed for **full database exfiltration** and **underlying filesystem access**. The attack began with a simple authentication bypass and escalated when the chatbot revealed it had the authority to execute raw SQL queries against its own backend database.
 
 ---
 
