@@ -17,7 +17,7 @@ The researchers found that Bard (now Gemini) could be turned into a "double agen
 
 ### 🔄 The 2024 "AI Studio" Regression
 
-As you noted in your other research samples, this vulnerability isn't a "one-and-done" fix. In **February 2024**, Google AI Studio (the developer platform for Gemini) suffered a **regression**. A UI update accidentally re-enabled the ability to render these malicious images, allowing attackers to exfiltrate entire folders of uploaded files (like performance reviews) in a single prompt.
+As noted in other research samples, this vulnerability isn't a "one-and-done" fix. In **February 2024**, Google AI Studio (the developer platform for Gemini) suffered a **regression**. A UI update accidentally re-enabled the ability to render these malicious images, allowing attackers to exfiltrate entire folders of uploaded files (like performance reviews) in a single prompt.
 
 ---
 
