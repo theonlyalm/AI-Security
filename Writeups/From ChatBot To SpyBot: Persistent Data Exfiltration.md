@@ -9,7 +9,7 @@
 
 ### 📖 Executive Summary
 
-Following the discovery of the "XSS Marks the Spot" vulnerability, the research explored a critical question: **"What happens *after* an attacker steals a user's session token?"** While session tokens expire every few days, Masas found a way to achieve **permanent persistence**. By injecting malicious instructions into ChatGPT's **"Custom Instructions"** or **Memory**, an attacker creates a "Double Agent." Even after the user resets their password or the session refreshes, the AI itself remains compromised, secretly analyzing the user's future conversations and exfiltrating sensitive data (like passwords or API keys) to the attacker.
+Following the discovery of the "XSS Marks the Spot" vulnerability, the research explored a critical question: **"What happens *after* an attacker steals a user's session token?"** While session tokens expire every few days, the researcher found a way to achieve **permanent persistence**. By injecting malicious instructions into ChatGPT's **"Custom Instructions"** or **Memory**, an attacker creates a "Double Agent." Even after the user resets their password or the session refreshes, the AI itself remains compromised, secretly analyzing the user's future conversations and exfiltrating sensitive data (like passwords or API keys) to the attacker.
 
 ---
 
@@ -22,13 +22,13 @@ The vulnerability isn't a code bug but a logical abuse of how LLMs follow instru
 * *Defense:* The AI can only load URLs that **already exist** in the conversation history or are "safe" top-level domains.
 
 
-3. **The Bypass:** Masas found that the "safety check" was flawed. It merely checked if the URL string existed *somewhere* in the text context.
+3. **The Bypass:** The researcher found that the "safety check" was flawed. It merely checked if the URL string existed *somewhere* in the text context.
 
 ---
 
 ### 📡 Spy Techniques: How Data is Stolen
 
-Since the AI couldn't just send a direct message with the password, Masas developed three clever techniques to "smuggle" data out character-by-character using **Markdown Images**. When ChatGPT tries to render an image, it makes a GET request to a server, which the attacker logs.
+Since the AI couldn't just send a direct message with the password, the researcher developed three clever techniques to "smuggle" data out character-by-character using **Markdown Images**. When ChatGPT tries to render an image, it makes a GET request to a server, which the attacker logs.
 
 #### **Technique 1: "Static URL for Each Character"**
 
