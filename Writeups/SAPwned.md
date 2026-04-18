@@ -10,7 +10,7 @@
 
 ### 📖 Executive Summary
 
-"SAPwned" is a chain of five vulnerabilities discovered in **SAP AI Core**, a platform used for training and deploying AI models. Because AI platforms inherently allow users to run arbitrary code (for training models), isolation is critical. Wiz researchers bypassed these isolation layers, moved laterally through the internal network, and gained **Cluster Administrator** privileges.
+"SAPwned" is a chain of five vulnerabilities discovered in **SAP AI Core**, a platform used for training and deploying AI models. Because AI platforms inherently allow users to run arbitrary code (for training models), isolation is critical. The researchers bypassed these isolation layers, moved laterally through the internal network, and gained **Cluster Administrator** privileges.
 
 This allowed them to access sensitive credentials (AWS, Azure, SAP HANA) and private AI artifacts belonging to other SAP customers.
 
